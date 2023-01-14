@@ -16,7 +16,12 @@
     justify-content: space-between;
     padding-top: 48px;
 }
-
+.navbar i{
+    font-size: 20px;
+    color:#00D6B4;
+    margin-right: 30px;
+    display:none;
+}
 
 .nav-items{
     display: flex;
@@ -139,3 +144,94 @@ p{
     color: #999999;
 
 }
+
+/* Responsive part */
+@media only screen and (max-width:1230px)  {
+    .navbar h1{
+        margin-left: 25px;
+
+    }
+    .hiro {
+        width:50%;
+
+
+
+    }
+    
+}
+@media only screen and (max-width:950px)  {
+    .images{
+        grid-template-columns: repeat(2,300px); 
+    
+    } 
+}
+@media only screen and (max-width:900px) { 
+.hiro{
+    width:65%;
+}
+
+
+}
+@media only screen and (max-width:630px) {
+    .images{
+        grid-template-columns: repeat(1,300px);   
+    }
+} 
+@media only screen and (max-width:567px) {
+    .navbar i{
+        display: block;
+        
+        
+    }
+    .nav-items{
+        display: none;
+    }
+}
+@media only screen and (max-width:538px) {
+    .hiro{
+        width:80%;
+    }
+    .hiro h1{
+        font-size: 40px;
+    }
+    
+    
+    
+}
+@media only screen and (max-width:434px) {
+    .hiro{
+        width:85%;
+    }
+
+}
+@media only screen and (max-width:409px) {
+    .hiro{
+        width:90%;
+    }
+
+}
+@media only screen and (max-width:357px) {
+    .hiro h1{
+        font-size:35px;
+    }
+
+}
+@media only screen and (max-width:310px) {
+    .images{
+        grid-template-columns: repeat(1,275px);
+        
+    }
+    .images img{
+        width: 275px;
+    }
+    .hiro{
+        width:95%;
+
+  }
+    .hiro h1{
+        font-size: 30px;
+    }
+
+}   
+
+
