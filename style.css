@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Lato:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.nav-item {
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #00D6B4;
+}
+
+nav {
+    background-image: url("./IMAGE.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hiro{
+    text-align: center;
+    margin:0 auto;
+    width:40%;
+
+    
+}
+.hiro h1{
+    margin-top:153px;
+    margin-bottom: 40px ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn{
+    color: #FFFFFF;
+    padding: 10px 25px;
+    border:1px solid  #00D6B4;
+    border-radius: 3px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    
+
+text-align: center;
+text-transform: uppercase;
+
+color: #00D6B4;
+
+}
+.works{
+    background-color: #222;
+    padding: 50px 0px 136px;
+}
+.section-title{
+    color:white;
+    margin-bottom:33px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.images{
+    display:grid;
+    grid-template-columns: repeat(3,300px);
+    row-gap:22px;
+    column-gap: 20px;
+    justify-content:center;
+
+}
+h3{
+    color: #FFFFFF;
+}
+p{
+    color:#FFFFFF;
+    padding-top:10px;
+    padding-bottom:37px;
+}
+footer{
+    background-color: #222;
+    text-align: center;
+}
+h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C2C2C2;
+
+}
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #999999;
+
+}
